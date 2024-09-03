@@ -1,0 +1,234 @@
+*
+{
+   
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.top
+{
+  
+    width: 100%;
+    height: 66px;
+    background-color: #00050D;
+}
+
+
+.top-txt
+{
+    margin-left: 70px;
+      padding-top: 20px;
+    font-size: 16px;
+    display: grid;
+    color: white;
+    grid-template-columns:104px 49px 54px 73px 61px 14px 30px 385px 30px 50px 40px 40px 40px;
+    column-gap: 30px;
+    cursor: pointer;
+}
+.top-txt-hover:hover
+{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.ev
+{
+    position: relative;
+    bottom: 5px;
+}
+.tbl-icon
+{     
+    position: relative;
+    top: 5px
+}
+.vara
+{
+    font-size: 30px;
+    position: relative;
+    bottom: 7px;
+    color: rgba(244, 244, 240, 0.405);
+}
+.btn
+{
+    position: relative;
+    bottom: 10px;
+     font-weight: bold;
+     font-size: 14px;
+     letter-spacing: 0.49px;
+     width: 106px;
+     height: 42px;
+     background-color: #1a98ff;
+     border-radius: 10px;
+     border: none;
+     color: white;
+}
+.btn:hover
+{
+    box-shadow: 0px 0px 10px #1a98ffbd;
+    cursor: pointer;
+}
+
+.fimg
+{
+    width:100%;
+    height:510px;
+    background-image: url(./Assets/fimg.png);
+    background-size: cover;
+   
+}
+.fh
+{
+    line-height: 29px;
+    padding-top: 49px;
+    padding-left: 40px;
+    font-size: 35px;
+}
+.fp
+{
+    line-height: 29px;
+    padding-top: 30px;
+    font-weight: 20px;
+    font-size: 22px;
+    padding-left: 40px;
+}
+.fb
+{
+    
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #0f79af;
+    cursor: pointer;
+    padding-left: 30px;
+    color: white;
+   
+}
+.simg
+{
+    width:100%;
+     height:510px;
+     background-size: cover;
+     background-image: url(./Assets/simg.png);
+ }
+ 
+.sh
+{
+    color: white;
+    padding-top: 50px;
+     font-weight: 300;
+    font-size: 35px;
+    padding-left: 40px;
+    line-height: 29px;
+
+}
+ .sp
+{
+    color: white;
+    padding-top:40px;
+    padding-left:42px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.sb
+{
+    color: white;
+  background-color: #0f79af;
+  width: 300px;
+  height: 45px;
+  margin-left: 35px;
+  margin-top: 40px;
+  border-radius: 7px;
+  border: 0;
+  font-weight: 700;
+  font-size: 17px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.bh
+{
+  margin-top: 30px;
+  margin-left: 35px;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 29px;
+}
+.bp
+{
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.b{
+    width: 100%;
+}
+.body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.images{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px 15px;
+    
+}
+.images img{
+    width: 200px;
+    padding-left: 6px;
+}
+
+.images img:hover{
+    box-shadow: 3px 1px 4px 0;
+    cursor: pointer;
+    
+}
+.footer
+{
+    width: 100%;
+    height: 138px;
+    background-color: #222222;
+}
+.ftxt{
+    color: white;
+    width: 50%;
+}
+
+
+.Limg
+{
+    padding-left: 682px;
+    padding-top: 20px;
+}
+.lp
+{
+    padding-top: 10px;
+    padding-left: 550px;
+    display: grid;
+    grid-template-columns:189px 136px 36px;
+    color: #79b8f2;
+    column-gap: 15px;
+    cursor: pointer;
+}
+
+.lppp
+{
+color:#6f818c;
+padding-top: 20px;
+padding-left: 570px;
+}
